@@ -1,0 +1,10 @@
+module TMF
+{
+
+interface Proxy
+{
+     // 获取字符串长度
+    int getStringSize(string content, out int size);
+};
+
+}; 

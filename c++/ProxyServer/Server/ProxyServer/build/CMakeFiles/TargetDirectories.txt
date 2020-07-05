@@ -1,0 +1,12 @@
+/usr/local/other/learn-tars/ProxyServer/Server/ProxyServer/build/CMakeFiles/rebuild_cache.dir
+/usr/local/other/learn-tars/ProxyServer/Server/ProxyServer/build/CMakeFiles/upload.dir
+/usr/local/other/learn-tars/ProxyServer/Server/ProxyServer/build/CMakeFiles/tar.dir
+/usr/local/other/learn-tars/ProxyServer/Server/ProxyServer/build/CMakeFiles/release.dir
+/usr/local/other/learn-tars/ProxyServer/Server/ProxyServer/build/CMakeFiles/edit_cache.dir
+/usr/local/other/learn-tars/ProxyServer/Server/ProxyServer/build/src/CMakeFiles/rebuild_cache.dir
+/usr/local/other/learn-tars/ProxyServer/Server/ProxyServer/build/src/CMakeFiles/edit_cache.dir
+/usr/local/other/learn-tars/ProxyServer/Server/ProxyServer/build/src/CMakeFiles/tars-ProxyServer.dir
+/usr/local/other/learn-tars/ProxyServer/Server/ProxyServer/build/src/CMakeFiles/ProxyServer.dir
+/usr/local/other/learn-tars/ProxyServer/Server/ProxyServer/build/src/CMakeFiles/ProxyServer-tar.dir
+/usr/local/other/learn-tars/ProxyServer/Server/ProxyServer/build/src/CMakeFiles/ProxyServer-release.dir
+/usr/local/other/learn-tars/ProxyServer/Server/ProxyServer/build/src/CMakeFiles/ProxyServer-upload.dir

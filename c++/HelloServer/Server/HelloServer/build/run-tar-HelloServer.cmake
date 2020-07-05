@@ -1,0 +1,7 @@
+EXECUTE_PROCESS(COMMAND /usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E echo mkdir -p /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/tmp/HelloServer)
+EXECUTE_PROCESS(COMMAND /usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E echo rm -rf /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/tmp/HelloServer)
+EXECUTE_PROCESS(COMMAND /usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E make_directory /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/tmp/HelloServer)
+EXECUTE_PROCESS(COMMAND /usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E echo copy bin/HelloServer /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/tmp/HelloServer/)
+EXECUTE_PROCESS(COMMAND /usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E copy bin/HelloServer /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/tmp/HelloServer/)
+EXECUTE_PROCESS(COMMAND /usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E chdir /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/tmp/ tar czfv HelloServer.tgz HelloServer/)
+EXECUTE_PROCESS(COMMAND /usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E copy_if_different /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/tmp/HelloServer.tgz /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/HelloServer.tgz)

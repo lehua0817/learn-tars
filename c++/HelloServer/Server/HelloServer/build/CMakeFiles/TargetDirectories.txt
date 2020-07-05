@@ -1,0 +1,12 @@
+/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/rebuild_cache.dir
+/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/upload.dir
+/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/tar.dir
+/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/release.dir
+/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/edit_cache.dir
+/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/src/CMakeFiles/rebuild_cache.dir
+/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/src/CMakeFiles/edit_cache.dir
+/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/src/CMakeFiles/HelloServer.dir
+/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/src/CMakeFiles/tars-HelloServer.dir
+/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/src/CMakeFiles/HelloServer-release.dir
+/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/src/CMakeFiles/HelloServer-tar.dir
+/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/src/CMakeFiles/HelloServer-upload.dir

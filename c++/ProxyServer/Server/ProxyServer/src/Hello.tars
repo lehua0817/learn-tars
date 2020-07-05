@@ -1,0 +1,18 @@
+
+module TMF
+{
+
+interface Hello
+{
+ 
+    // 字符串拼接
+    int addString(vector<string> list, out string resp);
+
+     // 获取字符串长度
+    int getStringSize(string content, out int size);
+
+    // 将字符全部换成大写
+    int upperString(string req, out string resp);
+};
+
+}; 

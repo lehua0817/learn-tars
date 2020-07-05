@@ -1,0 +1,7 @@
+EXECUTE_PROCESS(COMMAND /usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E echo mkdir -p /usr/local/other/learn-tars/ProxyServer/Server/ProxyServer/build/tmp/ProxyServer)
+EXECUTE_PROCESS(COMMAND /usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E echo rm -rf /usr/local/other/learn-tars/ProxyServer/Server/ProxyServer/build/tmp/ProxyServer)
+EXECUTE_PROCESS(COMMAND /usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E make_directory /usr/local/other/learn-tars/ProxyServer/Server/ProxyServer/build/tmp/ProxyServer)
+EXECUTE_PROCESS(COMMAND /usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E echo copy bin/ProxyServer /usr/local/other/learn-tars/ProxyServer/Server/ProxyServer/build/tmp/ProxyServer/)
+EXECUTE_PROCESS(COMMAND /usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E copy bin/ProxyServer /usr/local/other/learn-tars/ProxyServer/Server/ProxyServer/build/tmp/ProxyServer/)
+EXECUTE_PROCESS(COMMAND /usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E chdir /usr/local/other/learn-tars/ProxyServer/Server/ProxyServer/build/tmp/ tar czfv ProxyServer.tgz ProxyServer/)
+EXECUTE_PROCESS(COMMAND /usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E copy_if_different /usr/local/other/learn-tars/ProxyServer/Server/ProxyServer/build/tmp/ProxyServer.tgz /usr/local/other/learn-tars/ProxyServer/Server/ProxyServer/build/ProxyServer.tgz)
