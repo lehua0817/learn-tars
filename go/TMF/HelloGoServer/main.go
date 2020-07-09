@@ -1,11 +1,12 @@
 package main
 
 import (
-	"TMF"
 	"fmt"
 	"os"
 
 	"github.com/TarsCloud/TarsGo/tars"
+
+	"TMF"
 )
 
 func main() {
@@ -23,7 +24,7 @@ func main() {
 	app := new(TMF.Hello)
 	// Register Servant
 	app.AddServantWithContext(imp, cfg.App+"."+cfg.Server+".HelloObj")
-
+	
 	// Run application
 	tars.Run()
 }

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /usr/local/other/learn-tars/HelloServer/Server/HelloServer
+CMAKE_SOURCE_DIR = /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build
+CMAKE_BINARY_DIR = /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build
 
 # Utility rule file for HelloServer-tar.
 
@@ -58,8 +58,8 @@ src/CMakeFiles/HelloServer-tar: bin/HelloServer
 
 
 src/HelloServer.tgz:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "call /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/run-tar-HelloServer.cmake"
-	/usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -P /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/run-tar-HelloServer.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "call /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/run-tar-HelloServer.cmake"
+	/usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -P /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/run-tar-HelloServer.cmake
 
 HelloServer-tar: src/CMakeFiles/HelloServer-tar
 HelloServer-tar: src/HelloServer.tgz
@@ -73,10 +73,10 @@ src/CMakeFiles/HelloServer-tar.dir/build: HelloServer-tar
 .PHONY : src/CMakeFiles/HelloServer-tar.dir/build
 
 src/CMakeFiles/HelloServer-tar.dir/clean:
-	cd /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/src && $(CMAKE_COMMAND) -P CMakeFiles/HelloServer-tar.dir/cmake_clean.cmake
+	cd /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/src && $(CMAKE_COMMAND) -P CMakeFiles/HelloServer-tar.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/HelloServer-tar.dir/clean
 
 src/CMakeFiles/HelloServer-tar.dir/depend:
-	cd /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /usr/local/other/learn-tars/HelloServer/Server/HelloServer /usr/local/other/learn-tars/HelloServer/Server/HelloServer/src /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/src /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/src/CMakeFiles/HelloServer-tar.dir/DependInfo.cmake --color=$(COLOR)
+	cd /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/src /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/src /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/src/CMakeFiles/HelloServer-tar.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/HelloServer-tar.dir/depend
 

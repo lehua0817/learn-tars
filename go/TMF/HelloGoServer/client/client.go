@@ -10,7 +10,7 @@ import (
 
 func main() {
 	comm := tars.NewCommunicator()
-	obj := fmt.Sprintf("TMF.HelloGoServer.HelloObj@tcp -h 172.25.0.5 -p 27682 -t 60000")
+	obj := fmt.Sprintf("TMF.HelloGoServer.HelloObj@tcp -h 172.25.0.5 -t 60000 -p 27682")
 	app := new(TMF.Hello)
 	comm.StringToProxy(obj, app)
 	var out, i int32

@@ -6,5 +6,5 @@ CXX_FLAGS =  -fPIC -std=c++11  -Wno-deprecated -fno-strict-aliasing -Wno-overloa
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/local/tars/cpp/include -I/usr/local/tars/cpp/thirdparty/include/mysql -I/usr/local/tars/cpp/thirdparty/include -I/usr/local/other/learn-tars/HelloServer/Server/HelloServer/src 
+CXX_INCLUDES = -I/usr/local/tars/cpp/include -I/usr/local/tars/cpp/thirdparty/include/mysql -I/usr/local/tars/cpp/thirdparty/include -I/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/src 
 

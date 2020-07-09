@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/usr/local/other/learn-tars/HelloServer/Server/HelloServer/src/Hello.h
+/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/src/Hello.h
 map
 -
 string
@@ -14,37 +14,37 @@ string
 vector
 -
 tup/Tars.h
-/usr/local/other/learn-tars/HelloServer/Server/HelloServer/src/tup/Tars.h
+/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/src/tup/Tars.h
 tup/TarsJson.h
-/usr/local/other/learn-tars/HelloServer/Server/HelloServer/src/tup/TarsJson.h
+/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/src/tup/TarsJson.h
 servant/ServantProxy.h
-/usr/local/other/learn-tars/HelloServer/Server/HelloServer/src/servant/ServantProxy.h
+/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/src/servant/ServantProxy.h
 servant/Servant.h
-/usr/local/other/learn-tars/HelloServer/Server/HelloServer/src/servant/Servant.h
+/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/src/servant/Servant.h
 
-/usr/local/other/learn-tars/HelloServer/Server/HelloServer/src/HelloImp.cpp
+/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/src/HelloImp.cpp
 HelloImp.h
-/usr/local/other/learn-tars/HelloServer/Server/HelloServer/src/HelloImp.h
+/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/src/HelloImp.h
 servant/Application.h
-/usr/local/other/learn-tars/HelloServer/Server/HelloServer/src/servant/Application.h
+/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/src/servant/Application.h
 
-/usr/local/other/learn-tars/HelloServer/Server/HelloServer/src/HelloImp.h
+/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/src/HelloImp.h
 servant/Application.h
-/usr/local/other/learn-tars/HelloServer/Server/HelloServer/src/servant/Application.h
+/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/src/servant/Application.h
 Hello.h
-/usr/local/other/learn-tars/HelloServer/Server/HelloServer/src/Hello.h
+/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/src/Hello.h
 
-/usr/local/other/learn-tars/HelloServer/Server/HelloServer/src/HelloServer.cpp
+/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/src/HelloServer.cpp
 HelloServer.h
-/usr/local/other/learn-tars/HelloServer/Server/HelloServer/src/HelloServer.h
+/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/src/HelloServer.h
 HelloImp.h
-/usr/local/other/learn-tars/HelloServer/Server/HelloServer/src/HelloImp.h
+/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/src/HelloImp.h
 
-/usr/local/other/learn-tars/HelloServer/Server/HelloServer/src/HelloServer.h
+/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/src/HelloServer.h
 iostream
 -
 servant/Application.h
-/usr/local/other/learn-tars/HelloServer/Server/HelloServer/src/servant/Application.h
+/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/src/servant/Application.h
 
 /usr/local/tars/cpp/include/servant/AdapterProxy.h
 util/tc_timeout_queue_new.h

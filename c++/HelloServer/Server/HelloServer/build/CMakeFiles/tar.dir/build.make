@@ -43,10 +43,10 @@ RM = /usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /usr/local/other/learn-tars/HelloServer/Server/HelloServer
+CMAKE_SOURCE_DIR = /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build
+CMAKE_BINARY_DIR = /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build
 
 # Utility rule file for tar.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /usr/local/other/learn-tars/HelloServer/Server/HelloServer/bu
 include CMakeFiles/tar.dir/progress.make
 
 CMakeFiles/tar:
-	cmake -P /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/run-tar.cmake
+	cmake -P /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/run-tar.cmake
 
 tar: CMakeFiles/tar
 tar: CMakeFiles/tar.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/tar.dir/clean:
 .PHONY : CMakeFiles/tar.dir/clean
 
 CMakeFiles/tar.dir/depend:
-	cd /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /usr/local/other/learn-tars/HelloServer/Server/HelloServer /usr/local/other/learn-tars/HelloServer/Server/HelloServer /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/tar.dir/DependInfo.cmake --color=$(COLOR)
+	cd /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/tar.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tar.dir/depend
 

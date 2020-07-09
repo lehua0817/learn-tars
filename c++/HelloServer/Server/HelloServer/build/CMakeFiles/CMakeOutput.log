@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/3.9.0/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/3.9.0/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/3.9.0/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/3.9.0/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp
+Change Dir: /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_c9864/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_c9864.dir/build.make CMakeFiles/cmTC_c9864.dir/build
-gmake[1]: 进入目录“/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_c9864.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_c9864.dir/testCCompiler.c.o   -c /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_c9864
-/usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9864.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c9864.dir/testCCompiler.c.o  -o cmTC_c9864 
-gmake[1]: 离开目录“/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/gmake" "cmTC_cf488/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_cf488.dir/build.make CMakeFiles/cmTC_cf488.dir/build
+gmake[1]: 进入目录“/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_cf488.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_cf488.dir/testCCompiler.c.o   -c /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_cf488
+/usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf488.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_cf488.dir/testCCompiler.c.o  -o cmTC_cf488 
+gmake[1]: 离开目录“/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp
+Change Dir: /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_6b7b8/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_6b7b8.dir/build.make CMakeFiles/cmTC_6b7b8.dir/build
-gmake[1]: 进入目录“/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_6b7b8.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_6b7b8.dir/CMakeCCompilerABI.c.o   -c /usr/bin/cmake-3.9.0-Linux-x86_64/share/cmake-3.9/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_6b7b8
-/usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b7b8.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_6b7b8.dir/CMakeCCompilerABI.c.o  -o cmTC_6b7b8 
+Run Build Command:"/usr/bin/gmake" "cmTC_724a3/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_724a3.dir/build.make CMakeFiles/cmTC_724a3.dir/build
+gmake[1]: 进入目录“/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_724a3.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_724a3.dir/CMakeCCompilerABI.c.o   -c /usr/bin/cmake-3.9.0-Linux-x86_64/share/cmake-3.9/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_724a3
+/usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_724a3.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_724a3.dir/CMakeCCompilerABI.c.o  -o cmTC_724a3 
 使用内建 specs。
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
@@ -59,23 +59,23 @@ COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
 gcc 版本 4.8.5 20150623 (Red Hat 4.8.5-39) (GCC) 
 COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_6b7b8' '-mtune=generic' '-march=x86-64'
- /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_6b7b8 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_6b7b8.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
-gmake[1]: 离开目录“/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_724a3' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_724a3 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_724a3.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+gmake[1]: 离开目录“/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_6b7b8/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_6b7b8.dir/build.make CMakeFiles/cmTC_6b7b8.dir/build]
-  ignore line: [gmake[1]: 进入目录“/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”]
-  ignore line: [Building C object CMakeFiles/cmTC_6b7b8.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_6b7b8.dir/CMakeCCompilerABI.c.o   -c /usr/bin/cmake-3.9.0-Linux-x86_64/share/cmake-3.9/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_6b7b8]
-  ignore line: [/usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b7b8.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_6b7b8.dir/CMakeCCompilerABI.c.o  -o cmTC_6b7b8 ]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_724a3/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_724a3.dir/build.make CMakeFiles/cmTC_724a3.dir/build]
+  ignore line: [gmake[1]: 进入目录“/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”]
+  ignore line: [Building C object CMakeFiles/cmTC_724a3.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_724a3.dir/CMakeCCompilerABI.c.o   -c /usr/bin/cmake-3.9.0-Linux-x86_64/share/cmake-3.9/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_724a3]
+  ignore line: [/usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_724a3.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_724a3.dir/CMakeCCompilerABI.c.o  -o cmTC_724a3 ]
   ignore line: [使用内建 specs。]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
@@ -85,8 +85,8 @@ Parsed C implicit link information from above output:
   ignore line: [gcc 版本 4.8.5 20150623 (Red Hat 4.8.5-39) (GCC) ]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_6b7b8' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_6b7b8 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_6b7b8.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_724a3' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_724a3 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_724a3.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
     arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
     arg [--build-id] ==> ignore
     arg [--no-add-needed] ==> ignore
@@ -98,7 +98,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_6b7b8] ==> ignore
+    arg [cmTC_724a3] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
@@ -107,7 +107,7 @@ Parsed C implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
-    arg [CMakeFiles/cmTC_6b7b8.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_724a3.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -132,17 +132,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp
+Change Dir: /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_cd188/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_cd188.dir/build.make CMakeFiles/cmTC_cd188.dir/build
-gmake[1]: 进入目录“/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_cd188.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_cd188.dir/feature_tests.c.o   -c /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_cd188
-/usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd188.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_cd188.dir/feature_tests.c.o  -o cmTC_cd188 
-gmake[1]: 离开目录“/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/gmake" "cmTC_782ab/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_782ab.dir/build.make CMakeFiles/cmTC_782ab.dir/build
+gmake[1]: 进入目录“/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_782ab.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_782ab.dir/feature_tests.c.o   -c /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_782ab
+/usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_782ab.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_782ab.dir/feature_tests.c.o  -o cmTC_782ab 
+gmake[1]: 离开目录“/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -152,17 +152,17 @@ gmake[1]: 离开目录“/usr/local/other/learn-tars/HelloServer/Server/HelloSer
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp
+Change Dir: /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_1c9c1/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_1c9c1.dir/build.make CMakeFiles/cmTC_1c9c1.dir/build
-gmake[1]: 进入目录“/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_1c9c1.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_1c9c1.dir/feature_tests.c.o   -c /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_1c9c1
-/usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c9c1.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1c9c1.dir/feature_tests.c.o  -o cmTC_1c9c1 
-gmake[1]: 离开目录“/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/gmake" "cmTC_cbd6e/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_cbd6e.dir/build.make CMakeFiles/cmTC_cbd6e.dir/build
+gmake[1]: 进入目录“/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_cbd6e.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_cbd6e.dir/feature_tests.c.o   -c /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_cbd6e
+/usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbd6e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_cbd6e.dir/feature_tests.c.o  -o cmTC_cbd6e 
+gmake[1]: 离开目录“/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -172,17 +172,17 @@ gmake[1]: 离开目录“/usr/local/other/learn-tars/HelloServer/Server/HelloSer
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp
+Change Dir: /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_7690f/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_7690f.dir/build.make CMakeFiles/cmTC_7690f.dir/build
-gmake[1]: 进入目录“/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_7690f.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_7690f.dir/feature_tests.c.o   -c /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_7690f
-/usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7690f.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7690f.dir/feature_tests.c.o  -o cmTC_7690f 
-gmake[1]: 离开目录“/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/gmake" "cmTC_7b3e4/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_7b3e4.dir/build.make CMakeFiles/cmTC_7b3e4.dir/build
+gmake[1]: 进入目录“/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_7b3e4.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_7b3e4.dir/feature_tests.c.o   -c /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_7b3e4
+/usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b3e4.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7b3e4.dir/feature_tests.c.o  -o cmTC_7b3e4 
+gmake[1]: 离开目录“/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -190,30 +190,30 @@ gmake[1]: 离开目录“/usr/local/other/learn-tars/HelloServer/Server/HelloSer
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp
+Change Dir: /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_9cb06/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_9cb06.dir/build.make CMakeFiles/cmTC_9cb06.dir/build
-gmake[1]: 进入目录“/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_9cb06.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_9cb06.dir/testCXXCompiler.cxx.o -c /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_9cb06
-/usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cb06.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_9cb06.dir/testCXXCompiler.cxx.o  -o cmTC_9cb06 
-gmake[1]: 离开目录“/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/gmake" "cmTC_e9ae6/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e9ae6.dir/build.make CMakeFiles/cmTC_e9ae6.dir/build
+gmake[1]: 进入目录“/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_e9ae6.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_e9ae6.dir/testCXXCompiler.cxx.o -c /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_e9ae6
+/usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9ae6.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_e9ae6.dir/testCXXCompiler.cxx.o  -o cmTC_e9ae6 
+gmake[1]: 离开目录“/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp
+Change Dir: /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_41c6f/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_41c6f.dir/build.make CMakeFiles/cmTC_41c6f.dir/build
-gmake[1]: 进入目录“/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_41c6f.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_41c6f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/bin/cmake-3.9.0-Linux-x86_64/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_41c6f
-/usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41c6f.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_41c6f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_41c6f 
+Run Build Command:"/usr/bin/gmake" "cmTC_5cd6d/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_5cd6d.dir/build.make CMakeFiles/cmTC_5cd6d.dir/build
+gmake[1]: 进入目录“/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_5cd6d.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_5cd6d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/bin/cmake-3.9.0-Linux-x86_64/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_5cd6d
+/usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cd6d.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_5cd6d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5cd6d 
 使用内建 specs。
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
@@ -223,23 +223,23 @@ COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
 gcc 版本 4.8.5 20150623 (Red Hat 4.8.5-39) (GCC) 
 COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_41c6f' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_41c6f /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_41c6f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
-gmake[1]: 离开目录“/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5cd6d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5cd6d /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_5cd6d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+gmake[1]: 离开目录“/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_41c6f/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_41c6f.dir/build.make CMakeFiles/cmTC_41c6f.dir/build]
-  ignore line: [gmake[1]: 进入目录“/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”]
-  ignore line: [Building CXX object CMakeFiles/cmTC_41c6f.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_41c6f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/bin/cmake-3.9.0-Linux-x86_64/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_41c6f]
-  ignore line: [/usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41c6f.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_41c6f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_41c6f ]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_5cd6d/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_5cd6d.dir/build.make CMakeFiles/cmTC_5cd6d.dir/build]
+  ignore line: [gmake[1]: 进入目录“/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”]
+  ignore line: [Building CXX object CMakeFiles/cmTC_5cd6d.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_5cd6d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/bin/cmake-3.9.0-Linux-x86_64/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_5cd6d]
+  ignore line: [/usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cd6d.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_5cd6d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5cd6d ]
   ignore line: [使用内建 specs。]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
@@ -249,8 +249,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc 版本 4.8.5 20150623 (Red Hat 4.8.5-39) (GCC) ]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_41c6f' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_41c6f /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_41c6f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5cd6d' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5cd6d /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_5cd6d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
     arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
     arg [--build-id] ==> ignore
     arg [--no-add-needed] ==> ignore
@@ -262,7 +262,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_41c6f] ==> ignore
+    arg [cmTC_5cd6d] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
@@ -271,7 +271,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
-    arg [CMakeFiles/cmTC_41c6f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_5cd6d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -294,17 +294,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1y] compiler features compiled with the following output:
-Change Dir: /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp
+Change Dir: /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_4654d/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_4654d.dir/build.make CMakeFiles/cmTC_4654d.dir/build
-gmake[1]: 进入目录“/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_4654d.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1y -o CMakeFiles/cmTC_4654d.dir/feature_tests.cxx.o -c /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_4654d
-/usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4654d.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_4654d.dir/feature_tests.cxx.o  -o cmTC_4654d 
-gmake[1]: 离开目录“/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/gmake" "cmTC_a96f0/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a96f0.dir/build.make CMakeFiles/cmTC_a96f0.dir/build
+gmake[1]: 进入目录“/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_a96f0.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1y -o CMakeFiles/cmTC_a96f0.dir/feature_tests.cxx.o -c /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a96f0
+/usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a96f0.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_a96f0.dir/feature_tests.cxx.o  -o cmTC_a96f0 
+gmake[1]: 离开目录“/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -367,17 +367,17 @@ gmake[1]: 离开目录“/usr/local/other/learn-tars/HelloServer/Server/HelloSer
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp
+Change Dir: /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_7888f/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_7888f.dir/build.make CMakeFiles/cmTC_7888f.dir/build
-gmake[1]: 进入目录“/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_7888f.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_7888f.dir/feature_tests.cxx.o -c /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_7888f
-/usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7888f.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_7888f.dir/feature_tests.cxx.o  -o cmTC_7888f 
-gmake[1]: 离开目录“/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/gmake" "cmTC_bf834/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_bf834.dir/build.make CMakeFiles/cmTC_bf834.dir/build
+gmake[1]: 进入目录“/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_bf834.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_bf834.dir/feature_tests.cxx.o -c /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_bf834
+/usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf834.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_bf834.dir/feature_tests.cxx.o  -o cmTC_bf834 
+gmake[1]: 离开目录“/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -440,17 +440,17 @@ gmake[1]: 离开目录“/usr/local/other/learn-tars/HelloServer/Server/HelloSer
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp
+Change Dir: /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_de6d6/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_de6d6.dir/build.make CMakeFiles/cmTC_de6d6.dir/build
-gmake[1]: 进入目录“/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_de6d6.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_de6d6.dir/feature_tests.cxx.o -c /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_de6d6
-/usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de6d6.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_de6d6.dir/feature_tests.cxx.o  -o cmTC_de6d6 
-gmake[1]: 离开目录“/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/gmake" "cmTC_af808/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_af808.dir/build.make CMakeFiles/cmTC_af808.dir/build
+gmake[1]: 进入目录“/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_af808.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_af808.dir/feature_tests.cxx.o -c /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_af808
+/usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af808.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_af808.dir/feature_tests.cxx.o  -o cmTC_af808 
+gmake[1]: 离开目录“/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/CMakeTmp”
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

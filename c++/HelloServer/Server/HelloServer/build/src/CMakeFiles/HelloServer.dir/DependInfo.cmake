@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/usr/local/other/learn-tars/HelloServer/Server/HelloServer/src/HelloImp.cpp" "/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/src/CMakeFiles/HelloServer.dir/HelloImp.cpp.o"
-  "/usr/local/other/learn-tars/HelloServer/Server/HelloServer/src/HelloServer.cpp" "/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/src/CMakeFiles/HelloServer.dir/HelloServer.cpp.o"
+  "/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/src/HelloImp.cpp" "/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/src/CMakeFiles/HelloServer.dir/HelloImp.cpp.o"
+  "/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/src/HelloServer.cpp" "/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/src/CMakeFiles/HelloServer.dir/HelloServer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

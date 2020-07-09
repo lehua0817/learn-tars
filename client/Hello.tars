@@ -1,0 +1,9 @@
+module TMF
+{
+	interface Hello
+	{
+	    int Add(int a,int b,out int c);
+		// 获取字符串长度
+    	int GetStringSize(string content, out int size);
+	};
+};

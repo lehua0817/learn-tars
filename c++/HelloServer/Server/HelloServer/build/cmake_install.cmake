@@ -1,4 +1,4 @@
-# Install script for directory: /usr/local/other/learn-tars/HelloServer/Server/HelloServer
+# Install script for directory: /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/src/cmake_install.cmake")
+  include("/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/src/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

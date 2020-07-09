@@ -48,10 +48,10 @@ RM = /usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /usr/local/other/learn-tars/HelloServer/Server/HelloServer
+CMAKE_SOURCE_DIR = /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build
+CMAKE_BINARY_DIR = /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build && $(CMAKE_COMMAND) -E cmake_progress_start /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/src/CMakeFiles/progress.marks
-	cd /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles 0
+	cd /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build && $(CMAKE_COMMAND) -E cmake_progress_start /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/src/CMakeFiles/progress.marks
+	cd /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/HelloServer.dir/rule:
-	cd /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/HelloServer.dir/rule
+	cd /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/HelloServer.dir/rule
 .PHONY : src/CMakeFiles/HelloServer.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ HelloServer: src/CMakeFiles/HelloServer.dir/rule
 
 # fast build rule for target.
 HelloServer/fast:
-	cd /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build && $(MAKE) -f src/CMakeFiles/HelloServer.dir/build.make src/CMakeFiles/HelloServer.dir/build
+	cd /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build && $(MAKE) -f src/CMakeFiles/HelloServer.dir/build.make src/CMakeFiles/HelloServer.dir/build
 .PHONY : HelloServer/fast
 
 # Convenience name for target.
 src/CMakeFiles/tars-HelloServer.dir/rule:
-	cd /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/tars-HelloServer.dir/rule
+	cd /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/tars-HelloServer.dir/rule
 .PHONY : src/CMakeFiles/tars-HelloServer.dir/rule
 
 # Convenience name for target.
@@ -137,12 +137,12 @@ tars-HelloServer: src/CMakeFiles/tars-HelloServer.dir/rule
 
 # fast build rule for target.
 tars-HelloServer/fast:
-	cd /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build && $(MAKE) -f src/CMakeFiles/tars-HelloServer.dir/build.make src/CMakeFiles/tars-HelloServer.dir/build
+	cd /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build && $(MAKE) -f src/CMakeFiles/tars-HelloServer.dir/build.make src/CMakeFiles/tars-HelloServer.dir/build
 .PHONY : tars-HelloServer/fast
 
 # Convenience name for target.
 src/CMakeFiles/HelloServer-release.dir/rule:
-	cd /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/HelloServer-release.dir/rule
+	cd /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/HelloServer-release.dir/rule
 .PHONY : src/CMakeFiles/HelloServer-release.dir/rule
 
 # Convenience name for target.
@@ -152,12 +152,12 @@ HelloServer-release: src/CMakeFiles/HelloServer-release.dir/rule
 
 # fast build rule for target.
 HelloServer-release/fast:
-	cd /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build && $(MAKE) -f src/CMakeFiles/HelloServer-release.dir/build.make src/CMakeFiles/HelloServer-release.dir/build
+	cd /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build && $(MAKE) -f src/CMakeFiles/HelloServer-release.dir/build.make src/CMakeFiles/HelloServer-release.dir/build
 .PHONY : HelloServer-release/fast
 
 # Convenience name for target.
 src/CMakeFiles/HelloServer-tar.dir/rule:
-	cd /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/HelloServer-tar.dir/rule
+	cd /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/HelloServer-tar.dir/rule
 .PHONY : src/CMakeFiles/HelloServer-tar.dir/rule
 
 # Convenience name for target.
@@ -167,12 +167,12 @@ HelloServer-tar: src/CMakeFiles/HelloServer-tar.dir/rule
 
 # fast build rule for target.
 HelloServer-tar/fast:
-	cd /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build && $(MAKE) -f src/CMakeFiles/HelloServer-tar.dir/build.make src/CMakeFiles/HelloServer-tar.dir/build
+	cd /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build && $(MAKE) -f src/CMakeFiles/HelloServer-tar.dir/build.make src/CMakeFiles/HelloServer-tar.dir/build
 .PHONY : HelloServer-tar/fast
 
 # Convenience name for target.
 src/CMakeFiles/HelloServer-upload.dir/rule:
-	cd /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/HelloServer-upload.dir/rule
+	cd /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/HelloServer-upload.dir/rule
 .PHONY : src/CMakeFiles/HelloServer-upload.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ HelloServer-upload: src/CMakeFiles/HelloServer-upload.dir/rule
 
 # fast build rule for target.
 HelloServer-upload/fast:
-	cd /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build && $(MAKE) -f src/CMakeFiles/HelloServer-upload.dir/build.make src/CMakeFiles/HelloServer-upload.dir/build
+	cd /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build && $(MAKE) -f src/CMakeFiles/HelloServer-upload.dir/build.make src/CMakeFiles/HelloServer-upload.dir/build
 .PHONY : HelloServer-upload/fast
 
 HelloImp.o: HelloImp.cpp.o
@@ -191,7 +191,7 @@ HelloImp.o: HelloImp.cpp.o
 
 # target to build an object file
 HelloImp.cpp.o:
-	cd /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build && $(MAKE) -f src/CMakeFiles/HelloServer.dir/build.make src/CMakeFiles/HelloServer.dir/HelloImp.cpp.o
+	cd /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build && $(MAKE) -f src/CMakeFiles/HelloServer.dir/build.make src/CMakeFiles/HelloServer.dir/HelloImp.cpp.o
 .PHONY : HelloImp.cpp.o
 
 HelloImp.i: HelloImp.cpp.i
@@ -200,7 +200,7 @@ HelloImp.i: HelloImp.cpp.i
 
 # target to preprocess a source file
 HelloImp.cpp.i:
-	cd /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build && $(MAKE) -f src/CMakeFiles/HelloServer.dir/build.make src/CMakeFiles/HelloServer.dir/HelloImp.cpp.i
+	cd /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build && $(MAKE) -f src/CMakeFiles/HelloServer.dir/build.make src/CMakeFiles/HelloServer.dir/HelloImp.cpp.i
 .PHONY : HelloImp.cpp.i
 
 HelloImp.s: HelloImp.cpp.s
@@ -209,7 +209,7 @@ HelloImp.s: HelloImp.cpp.s
 
 # target to generate assembly for a file
 HelloImp.cpp.s:
-	cd /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build && $(MAKE) -f src/CMakeFiles/HelloServer.dir/build.make src/CMakeFiles/HelloServer.dir/HelloImp.cpp.s
+	cd /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build && $(MAKE) -f src/CMakeFiles/HelloServer.dir/build.make src/CMakeFiles/HelloServer.dir/HelloImp.cpp.s
 .PHONY : HelloImp.cpp.s
 
 HelloServer.o: HelloServer.cpp.o
@@ -218,7 +218,7 @@ HelloServer.o: HelloServer.cpp.o
 
 # target to build an object file
 HelloServer.cpp.o:
-	cd /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build && $(MAKE) -f src/CMakeFiles/HelloServer.dir/build.make src/CMakeFiles/HelloServer.dir/HelloServer.cpp.o
+	cd /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build && $(MAKE) -f src/CMakeFiles/HelloServer.dir/build.make src/CMakeFiles/HelloServer.dir/HelloServer.cpp.o
 .PHONY : HelloServer.cpp.o
 
 HelloServer.i: HelloServer.cpp.i
@@ -227,7 +227,7 @@ HelloServer.i: HelloServer.cpp.i
 
 # target to preprocess a source file
 HelloServer.cpp.i:
-	cd /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build && $(MAKE) -f src/CMakeFiles/HelloServer.dir/build.make src/CMakeFiles/HelloServer.dir/HelloServer.cpp.i
+	cd /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build && $(MAKE) -f src/CMakeFiles/HelloServer.dir/build.make src/CMakeFiles/HelloServer.dir/HelloServer.cpp.i
 .PHONY : HelloServer.cpp.i
 
 HelloServer.s: HelloServer.cpp.s
@@ -236,7 +236,7 @@ HelloServer.s: HelloServer.cpp.s
 
 # target to generate assembly for a file
 HelloServer.cpp.s:
-	cd /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build && $(MAKE) -f src/CMakeFiles/HelloServer.dir/build.make src/CMakeFiles/HelloServer.dir/HelloServer.cpp.s
+	cd /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build && $(MAKE) -f src/CMakeFiles/HelloServer.dir/build.make src/CMakeFiles/HelloServer.dir/HelloServer.cpp.s
 .PHONY : HelloServer.cpp.s
 
 # Help Target
@@ -269,6 +269,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

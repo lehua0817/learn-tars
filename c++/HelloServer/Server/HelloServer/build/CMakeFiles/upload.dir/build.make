@@ -43,10 +43,10 @@ RM = /usr/bin/cmake-3.9.0-Linux-x86_64/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /usr/local/other/learn-tars/HelloServer/Server/HelloServer
+CMAKE_SOURCE_DIR = /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build
+CMAKE_BINARY_DIR = /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build
 
 # Utility rule file for upload.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /usr/local/other/learn-tars/HelloServer/Server/HelloServer/bu
 include CMakeFiles/upload.dir/progress.make
 
 CMakeFiles/upload:
-	cmake -P /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/run-upload.cmake
+	cmake -P /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/run-upload.cmake
 
 upload: CMakeFiles/upload
 upload: CMakeFiles/upload.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/upload.dir/clean:
 .PHONY : CMakeFiles/upload.dir/clean
 
 CMakeFiles/upload.dir/depend:
-	cd /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /usr/local/other/learn-tars/HelloServer/Server/HelloServer /usr/local/other/learn-tars/HelloServer/Server/HelloServer /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build /usr/local/other/learn-tars/HelloServer/Server/HelloServer/build/CMakeFiles/upload.dir/DependInfo.cmake --color=$(COLOR)
+	cd /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build /usr/local/other/learn-tars/c++/HelloServer/Server/HelloServer/build/CMakeFiles/upload.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/upload.dir/depend
 
